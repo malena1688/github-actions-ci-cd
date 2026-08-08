@@ -1,0 +1,13 @@
+name: Hello GitHub Actions // se puede cambiar 
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say hello
+        run: echo "¡Hola! Mi primer GitHub Action funciona 🚀"
