@@ -1,4 +1,4 @@
-name: Hello GitHub Actions // se puede cambiar 
+name: Hello GitHub Actions
 
 on:
   push:
