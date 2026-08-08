@@ -1,0 +1,24 @@
+{
+  "name": "github-actions-ci-cd",
+  "version": "1.0.0",
+  "description": "> **Proyecto práctico de DevOps enfocado en automatización, integración continua (CI), testing y despliegue continuo (CD).**",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malena1688/github-actions-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/malena1688/github-actions-ci-cd/issues"
+  },
+  "homepage": "https://github.com/malena1688/github-actions-ci-cd#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
