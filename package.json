@@ -4,7 +4,7 @@
   "description": "Proyecto practico de DevOps",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+  "start": "test",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
