@@ -4,22 +4,10 @@
   "description": "Proyecto practico de DevOps",
   "main": "index.js",
   "scripts": {
-  "start": "test",
-    "test": "jest",
+    "start": "node app.js",
+    "test": "jest app.test.js --forceExit",
     "test:coverage": "jest --coverage"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com"
-  },
-  "homepage": "https://github.com",
   "dependencies": {
     "express": "^4.19.2"
   },
